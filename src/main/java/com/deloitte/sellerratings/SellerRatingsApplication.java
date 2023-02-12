@@ -23,7 +23,7 @@ public class SellerRatingsApplication implements CommandLineRunner {
 
     @Override
     public void run(final String... args) throws Exception {
-        List<String> sellers = List.of("Pradeep", "Souji", "Bhanu", "Vinodh");
+        /*List<String> sellers = List.of("Pradeep", "Souji", "Bhanu", "Vinodh");
         List<String> buyers = List.of("John", "Jane", "Mike", "Michelle", "Mary", "Estelle", "Ricardo", "Dan");
         final List<RatingsDocument> ratings = Stream.generate(new Random()::nextInt)
                 .limit(9906).map(i -> {
@@ -37,6 +37,6 @@ public class SellerRatingsApplication implements CommandLineRunner {
                     String description = "My experience was :" + i;
                     return new RatingsDocument(null, sellerId, rating, buyerId, description);
                 }).toList();
-        ratingsRepository.saveAll(ratings);
+        ratingsRepository.saveAll(ratings);*/
     }
 }
